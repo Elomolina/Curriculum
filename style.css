@@ -86,11 +86,11 @@ i
 }
 .lenguajes a
 {
+    line-height: 3em;
     padding: 0.5em;
     font-weight: bold;
-    color: black;
+    color: blue;
     background-color: rgb(201, 219, 178);
-    text-decoration: none;
 }
 .cont 
 {
@@ -109,7 +109,7 @@ i
 }
 .mostrar .a
 {
-    height: 60px;
+    height: 90px;
     display: block;
 }
 .lenguajes a:hover
