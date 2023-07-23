@@ -159,6 +159,15 @@ i
 {
     color: black;
 }
+.icons a i
+{
+    transition: 0.5s;
+}
+.icons a i:hover 
+{
+    color: rgb(204, 83, 83);
+    transform: scale(1.5);
+}
 @media(max-width:1000px)
 {
     main
