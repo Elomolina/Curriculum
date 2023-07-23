@@ -84,13 +84,46 @@ i
 {
     position: relative;
 }
+.lenguajes a
+{
+    padding: 0.5em;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(201, 219, 178);
+    text-decoration: none;
+}
+.cont 
+{
+    cursor: pointer;
+}
+.mostrar .language::after 
+{
+    content: "-";
+}
+.cont .a
+{
+    transition: 0.5s;
+    height: 0px;
+    overflow: hidden;
+    display: block;
+}
+.mostrar .a
+{
+    height: 60px;
+    display: block;
+}
+.lenguajes a:hover
+{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+}
 .language::after, .certificate::after
 {
     content: "+";
     position: absolute;
     right: 0;
     font-size: 2rem;
-    color: rgba(181, 18, 18, 0.684);;
+    color: rgba(181, 18, 18, 0.684);
 }
 .projects 
 {
